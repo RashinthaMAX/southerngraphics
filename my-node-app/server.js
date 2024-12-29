@@ -13,10 +13,10 @@ app.use(bodyParser.json());
 
 // MySQL connection setup
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '', // Replace with your DB password
-  database: 'southern' // Replace with your DB name
+ host: 'sql12.freesqldatabase.com',
+  user: 'sql12754686',
+  password: '5SMDyNEzAm', // Replace with your DB password
+  database: 'sql12754686' // Replace with your DB name
 });
 
 db.connect(err => {
